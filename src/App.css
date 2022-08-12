@@ -1,0 +1,59 @@
+html{
+  font-size: 10px;
+}
+
+.App {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+}
+
+@media screen and (min-width: 360px) {
+  .App{
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 340px;
+    height: auto;
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  .App{
+    width: 406px;
+    height: auto;
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .App{
+    width: 768px;
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .App{
+    width: 992px;
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .App{
+    width: 1200px;
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .App{
+    width: 1400px;
+    background-color: white;
+  }
+}
+
